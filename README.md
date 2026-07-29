@@ -1,8 +1,35 @@
 # 📷 Barcode & QR Code Scanner - Android App (Kotlin)
 
+<p align="center">
+  <img src="screenshots/main_screen.png" alt="Barcode Scanner Main UI" width="30%" style="border-radius: 12px; margin-right: 10px;" />
+  <img src="screenshots/camera_scan.png" alt="CameraX Scanner" width="30%" style="border-radius: 12px; margin-right: 10px;" />
+  <img src="screenshots/result_screen.png" alt="Scan Result Details" width="30%" style="border-radius: 12px;" />
+</p>
+
 Aplikasi Android modern berbasa **Kotlin** untuk pemindaian **Barcode & QR Code** berkecepatan tinggi yang memanfaatkan **CameraX** dan **Google ML Kit Barcode Scanning API**. 
 
 Dilengkapi dengan desain antarmuka berbasis **Material 3 Design System**, deteksi format otomatis, aksi cepat (*smart actions* seperti salin teks & buka tautan), serta dukungan pemindaian *live camera* maupun analisis berkas dari galeri.
+
+---
+
+## 📸 Tampilan Aplikasi (Screenshots)
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <strong>Beranda / Input Menu</strong><br/><br/>
+      <img src="screenshots/main_screen.png" alt="Beranda Barcode Scanner" width="100%"/>
+    </td>
+    <td width="33%" align="center">
+      <strong>Live CameraX Scanner</strong><br/><br/>
+      <img src="screenshots/camera_scan.png" alt="Live Scanner Frame" width="100%"/>
+    </td>
+    <td width="33%" align="center">
+      <strong>Hasil Analisis & Actions</strong><br/><br/>
+      <img src="screenshots/result_screen.png" alt="Result Actions" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -51,6 +78,7 @@ Barcode-Scanner/
 │   │   │   └── drawable/              # Custom vector icons & scanner frames
 │   │   └── AndroidManifest.xml
 │   └── build.gradle.kts               # Modul dependensi gradle
+├── screenshots/                       # Tangkapan layar tampilan aplikasi
 ├── build.gradle.kts                   # Root build script
 ├── settings.gradle.kts
 └── README.md
