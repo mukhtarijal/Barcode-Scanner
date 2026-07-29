@@ -1,11 +1,12 @@
 <resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.MyCamera" parent="Theme.Material3.DayNight.NoActionBar">
-
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:windowBackground">@color/bg_light</item>
     </style>
 
     <style name="Theme.MyCamera" parent="Base.Theme.MyCamera" />
-
 </resources>

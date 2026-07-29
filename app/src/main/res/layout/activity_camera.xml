@@ -5,11 +5,49 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".CameraActivity">
 
     <androidx.camera.view.PreviewView
         android:id="@+id/viewFinder"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <!-- Scanner Target Overlay Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/scannerFrame"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="24dp"
+        app:strokeColor="@color/secondary"
+        app:strokeWidth="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1510B981" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Scan Instruction Banner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="#990F172A"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="Arahkan kamera ke Barcode / QR Code"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scannerFrame" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

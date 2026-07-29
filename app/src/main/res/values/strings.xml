@@ -1,10 +1,15 @@
 <resources>
-    <string name="app_name">Barcode Scanner</string>
-    <string name="camera_x">CameraX</string>
-    <string name="camera">Kamera</string>
-    <string name="gallery">Galeri</string>
-    <string name="analyze">Analyze</string>
-    <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
-    <string name="result">Hasil Analisis</string>
-    <string name="no_text_recognized">No text recognized!</string>
+    <string name="app_name">Barcode &amp; QR Scanner</string>
+    <string name="camera_x">Live CameraX Scan</string>
+    <string name="camera">Ambil Foto</string>
+    <string name="gallery">Pilih dari Galeri</string>
+    <string name="analyze">Analisis Barcode / QR</string>
+    <string name="empty_image_warning">Silakan pilih atau ambil foto terlebih dahulu.</string>
+    <string name="result">Hasil Pemindaian Barcode</string>
+    <string name="no_text_recognized">Barcode / QR tidak terdeteksi pada gambar!</string>
+    <string name="scan_now">Mulai Pemindaian Realtime</string>
+    <string name="copy_text">Salin Hasil</string>
+    <string name="open_link">Buka Tautan</string>
+    <string name="share_result">Bagikan Hasil</string>
+    <string name="scan_again">Pindai Lagi</string>
 </resources>
